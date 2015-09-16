@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0133F5291BAA030A00075F6E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133F5281BAA030A00075F6E /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0133F52E1BAA0D9700075F6E /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133F52D1BAA0D9700075F6E /* ChatViewController.m */; settings = {ASSET_TAGS = (); }; };
 		0170A5611BA9F6D700F743D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170A5601BA9F6D700F743D8 /* main.m */; };
 		0170A5641BA9F6D700F743D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170A5631BA9F6D700F743D8 /* AppDelegate.m */; };
-		0170A5671BA9F6D700F743D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170A5661BA9F6D700F743D8 /* ViewController.m */; };
 		0170A56A1BA9F6D700F743D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0170A5681BA9F6D700F743D8 /* Main.storyboard */; };
 		0170A56C1BA9F6D700F743D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0170A56B1BA9F6D700F743D8 /* Assets.xcassets */; };
 		0170A56F1BA9F6D700F743D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0170A56D1BA9F6D700F743D8 /* LaunchScreen.storyboard */; };
+		01CB63331BAA138900F7C1EE /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB63321BAA138900F7C1EE /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		D8B932A4EDDEF34232C0847A /* libPods-ParseClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3129D658B9E3FDFA82B73B42 /* libPods-ParseClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0133F5271BAA030A00075F6E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0133F5281BAA030A00075F6E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0133F52C1BAA0D9700075F6E /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		0133F52D1BAA0D9700075F6E /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		0170A55C1BA9F6D700F743D8 /* ParseClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0170A5601BA9F6D700F743D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0170A5621BA9F6D700F743D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0170A5631BA9F6D700F743D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0170A5651BA9F6D700F743D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0170A5661BA9F6D700F743D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0170A5691BA9F6D700F743D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0170A56B1BA9F6D700F743D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0170A56E1BA9F6D700F743D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0170A5701BA9F6D700F743D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CB63311BAA138900F7C1EE /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		01CB63321BAA138900F7C1EE /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		3129D658B9E3FDFA82B73B42 /* libPods-ParseClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356E32B5D7D530DAB2D79CFC /* Pods-ParseClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseClient/Pods-ParseClient.debug.xcconfig"; sourceTree = "<group>"; };
+		45BEAAD0A5A566D632F91893 /* Pods-ParseClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseClient/Pods-ParseClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B932A4EDDEF34232C0847A /* libPods-ParseClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0133F52B1BAA031B00075F6E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0133F5271BAA030A00075F6E /* LoginViewController.h */,
+				0133F5281BAA030A00075F6E /* LoginViewController.m */,
+				0133F52C1BAA0D9700075F6E /* ChatViewController.h */,
+				0133F52D1BAA0D9700075F6E /* ChatViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		0170A5531BA9F6D700F743D8 = {
 			isa = PBXGroup;
 			children = (
 				0170A55E1BA9F6D700F743D8 /* ParseClient */,
 				0170A55D1BA9F6D700F743D8 /* Products */,
+				F5FB6D176ECCC1E2CDB8C01D /* Pods */,
+				6804A3A7890DF491798721BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +84,10 @@
 			children = (
 				0170A5621BA9F6D700F743D8 /* AppDelegate.h */,
 				0170A5631BA9F6D700F743D8 /* AppDelegate.m */,
-				0170A5651BA9F6D700F743D8 /* ViewController.h */,
-				0170A5661BA9F6D700F743D8 /* ViewController.m */,
 				0170A5681BA9F6D700F743D8 /* Main.storyboard */,
+				01CB63311BAA138900F7C1EE /* MessageCell.h */,
+				01CB63321BAA138900F7C1EE /* MessageCell.m */,
+				0133F52B1BAA031B00075F6E /* View Controllers */,
 				0170A56B1BA9F6D700F743D8 /* Assets.xcassets */,
 				0170A56D1BA9F6D700F743D8 /* LaunchScreen.storyboard */,
 				0170A5701BA9F6D700F743D8 /* Info.plist */,
@@ -79,6 +104,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6804A3A7890DF491798721BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3129D658B9E3FDFA82B73B42 /* libPods-ParseClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5FB6D176ECCC1E2CDB8C01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				356E32B5D7D530DAB2D79CFC /* Pods-ParseClient.debug.xcconfig */,
+				45BEAAD0A5A566D632F91893 /* Pods-ParseClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0170A5731BA9F6D700F743D8 /* Build configuration list for PBXNativeTarget "ParseClient" */;
 			buildPhases = (
+				F1A8FEA180B298761BE4E5B8 /* Check Pods Manifest.lock */,
 				0170A5581BA9F6D700F743D8 /* Sources */,
 				0170A5591BA9F6D700F743D8 /* Frameworks */,
 				0170A55A1BA9F6D700F743D8 /* Resources */,
+				CA40EDC4DEBAE0B5B778C4E5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +188,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA40EDC4DEBAE0B5B778C4E5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseClient/Pods-ParseClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A8FEA180B298761BE4E5B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0170A5581BA9F6D700F743D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0170A5671BA9F6D700F743D8 /* ViewController.m in Sources */,
 				0170A5641BA9F6D700F743D8 /* AppDelegate.m in Sources */,
 				0170A5611BA9F6D700F743D8 /* main.m in Sources */,
+				01CB63331BAA138900F7C1EE /* MessageCell.m in Sources */,
+				0133F52E1BAA0D9700075F6E /* ChatViewController.m in Sources */,
+				0133F5291BAA030A00075F6E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +340,7 @@
 		};
 		0170A5741BA9F6D700F743D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356E32B5D7D530DAB2D79CFC /* Pods-ParseClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParseClient/Info.plist;
@@ -272,6 +352,7 @@
 		};
 		0170A5751BA9F6D700F743D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BEAAD0A5A566D632F91893 /* Pods-ParseClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParseClient/Info.plist;
@@ -300,6 +381,7 @@
 				0170A5751BA9F6D700F743D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
